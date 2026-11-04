@@ -9,5 +9,6 @@
   {"id": "the-lighthouse", "t": "The Lighthouse", "y": 2019, "dir": "Robert Eggers", "src": "https://www.youtube.com/watch?v=Hyag7lR8CPA", "g": "g_lighthouse", "h": "lighthouse", "cap": "film", "fx": ["orthochromatic"], "pal": "black & white", "ig": "", "posted": ""},
   {"id": "karma-police", "t": "Karma Police", "y": 1997, "dir": "Jonathan Glazer", "src": "https://www.youtube.com/watch?v=1uYWYWPc9HU", "g": "g_karma", "h": "karma", "cap": "", "fx": ["pov", "camera as character"], "pal": "natural", "ig": "https://www.instagram.com/p/DfDd10cCAUg/", "posted": "2026-10-28"},
   {"id": "atmosphere", "t": "Atmosphere", "y": 1988, "dir": "Anton Corbijn", "src": "https://www.youtube.com/watch?v=1EdUjlawLJM", "g": "g_atmos", "h": "atmos", "cap": "", "fx": [], "pal": "natural", "ig": "", "posted": ""},
-  {"id": "fxck", "t": "Fxck", "y": 2026, "dir": "Daniel Sannwald", "src": "https://www.youtube.com/watch?v=kNjEOrx_oqc", "g": "g_fxck", "h": "fxck", "cap": "", "fx": ["light design", "drones"], "pal": "warm", "ig": "", "posted": ""}
+  {"id": "fxck", "t": "Fxck", "y": 2026, "dir": "Daniel Sannwald", "src": "https://www.youtube.com/watch?v=kNjEOrx_oqc", "g": "g_fxck", "h": "fxck", "cap": "", "fx": ["light design", "drones"], "pal": "warm", "ig": "", "posted": ""},
+  {"id": "tangerine", "t": "Tangerine", "y": 2015, "dir": "Sean Baker", "src": "https://www.youtube.com/watch?v=XoCHyjQnMGU", "g": "g_tangerine", "h": "tangerine", "cap": "", "fx": [], "pal": "warm", "ig": "https://www.instagram.com/p/DfVQgh4j0-7/", "posted": "2026-11-04"}
 ]
