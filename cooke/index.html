@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Yapcine × Cooke</title>
+<meta name="theme-color" content="#050505">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&family=Inter+Tight:wght@500;800&display=swap">
+<style>
+/* layout: one 720px column, Yapcine black & white; mocks are 9:16 phone frames in a row that wraps to 2 on phones */
+:root{
+  --ink:#050505; --paper:#f2f2f2; --grey:#8a8a8a; --line:#222; --pill:#141414;
+  --display:"Inter Tight","Helvetica Neue",Arial,sans-serif;
+  --mono:"Geist Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{background:var(--ink);-webkit-text-size-adjust:100%}
+body{background:var(--ink);color:var(--paper);margin:0;font:15px/1.55 var(--display);
+  padding:40px max(16px,env(safe-area-inset-right,0px)) 96px max(16px,env(safe-area-inset-left,0px))}
+main{max-width:720px;margin:0 auto;display:grid;gap:72px}
+a{color:inherit}
+.m{font:500 11px/1.45 var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.q{color:var(--grey)}
+h1,h2,h3{font-family:var(--display);font-weight:800;text-transform:lowercase;letter-spacing:-.02em;margin:0;text-wrap:balance}
+h1{font-size:clamp(44px,12vw,88px);line-height:.9}
+h2{font-size:clamp(28px,6vw,40px);line-height:1}
+h3{font-size:20px;line-height:1.1}
+p{margin:0;max-width:60ch}
+section{display:grid;gap:20px}
+.top{display:grid;gap:18px}
+.lede{font-size:18px;line-height:1.45;max-width:46ch}
+.num{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line)}
+.num div{padding:16px 12px 0 0;display:grid;gap:4px;min-width:0}
+.num b{font:800 clamp(26px,6vw,36px)/1 var(--display);letter-spacing:-.02em}
+@media (max-width:560px){.num{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:18px}}
+.mocks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:560px){.mocks{grid-template-columns:repeat(2,minmax(0,1fr))}.mocks .phone:nth-child(3){display:none}}
+.phone{aspect-ratio:9/16;background:#000;border:1px solid var(--line);border-radius:14px;padding:14px 10px;display:flex;flex-direction:column;justify-content:space-between;gap:10px;min-width:0;overflow:hidden}
+.hook{font:800 clamp(14px,3.4vw,18px)/1.08 var(--display);letter-spacing:-.01em;text-transform:lowercase}
+.frame{aspect-ratio:16/9;background:var(--pill);display:flex;align-items:flex-end;padding:6px;border-radius:2px}
+.frame.wide{aspect-ratio:2.39/1}
+.frame span{font:500 8px/1.3 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--grey)}
+.cred{display:grid;gap:3px}
+.cred span{font:500 9px/1.3 var(--mono);letter-spacing:.06em;text-transform:uppercase}
+.flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+@media (max-width:560px){.flow{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.step{border:1px solid var(--line);padding:14px 12px;display:grid;gap:8px;align-content:start;min-width:0}
+.step b{font:800 17px/1.1 var(--display);text-transform:lowercase}
+.cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+@media (max-width:560px){.cols{grid-template-columns:1fr}}
+ul,ol{margin:0;padding-left:18px;display:grid;gap:8px}
+li{max-width:56ch}
+.ep{display:grid;gap:2px;text-decoration:none;padding:14px 0;border-top:1px solid var(--line)}
+.ep:last-child{border-bottom:1px solid var(--line)}
+.weeks{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px}
+@media (max-width:560px){.weeks{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.wk{border-top:1px solid var(--paper);padding-top:8px;display:grid;gap:2px;min-width:0}
+.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;border-top:1px solid var(--line);padding-top:16px}
+</style>
+</head>
+<body>
+<main>
+
+<header class="top">
+  <span class="m q">yapcine × cooke optics · for joe woolley · 17 nov 2026</span>
+  <h1>cooke optics tv, cut for instagram</h1>
+  <p class="lede">A weekly Yapcine series built from Cooke Optics TV. One great answer from a DP per post, cut short for the phone, sent to you for sign-off, then posted as a collab on @yapcine & @cookeoptics.</p>
+</header>
+
+<section>
+  <span class="m q">01 · yapcine</span>
+  <h2>a film page for people who make films</h2>
+  <p>Run by Elliot Holbrow, a working DP in London. Yapcine posts films, music videos & ads with every work credited to its makers & linked to the official source. It's new, so here are the real numbers as of 15 Nov 2026.</p>
+  <div class="num">
+    <div><b>6.1K</b><span class="m q">views, last 30 days</span></div>
+    <div><b>1,787</b><span class="m q">views, best reel</span></div>
+    <div><b>15</b><span class="m q">posts</span></div>
+    <div><b>9</b><span class="m q">followers</span></div>
+  </div>
+  <p class="q">Most views come from people who don't follow yet, through the reels tab. That's the reach a collab post adds to, on top of your own followers.</p>
+</section>
+
+<section>
+  <span class="m q">02 · the main format</span>
+  <h2>cooke optics tv cuts</h2>
+  <p>30 to 40 seconds from one of your interviews, vertical, with the DP's own sound. The hook line up top is what they actually say. The caption credits the DP, the film & Cooke Optics TV, & links the full episode, so every post sends people back to your channel.</p>
+  <div class="mocks" aria-label="Mock posts">
+    <div class="phone">
+      <div class="hook">how sean bobbitt built the most talked-about scene in shame</div>
+      <div class="frame"><span>cooke optics tv · interview</span></div>
+      <div class="cred"><span>sean bobbitt bsc</span><span class="q">shame (2011) · full episode ↗</span><span class="q">@yapcine × @cookeoptics</span></div>
+    </div>
+    <div class="phone">
+      <div class="hook">ben smithard draws his lighting plans by hand</div>
+      <div class="frame"><span>cooke optics tv · interview</span></div>
+      <div class="cred"><span>ben smithard bsc</span><span class="q">cooke optics tv · full episode ↗</span><span class="q">@yapcine × @cookeoptics</span></div>
+    </div>
+    <div class="phone">
+      <div class="hook">how do you light a night exterior? four dps answer</div>
+      <div class="frame"><span>cooke optics tv · roundtable</span></div>
+      <div class="cred"><span>night scenes roundtable</span><span class="q">cooke optics tv · full episode ↗</span><span class="q">@yapcine × @cookeoptics</span></div>
+    </div>
+  </div>
+  <p class="m q">mock layout only. hooks get rewritten from the real transcript, word for word.</p>
+</section>
+
+<section>
+  <span class="m q">03 · the second format</span>
+  <h2>shot on cooke</h2>
+  <p>One film per post. Which Cooke lenses were used, why the DP picked them in their own words, & a source for every claim. Built from your case studies & stills, so nothing relies on studio footage you can't clear.</p>
+  <div class="mocks" aria-label="Shot on Cooke mock">
+    <div class="phone">
+      <div class="hook">one unbroken take, on cooke s4s</div>
+      <div class="frame wide"><span>cooke case study still</span></div>
+      <div class="cred"><span>the place beyond the pines</span><span class="q">dp sean bobbitt · cooke s4</span><span class="q">@yapcine × @cookeoptics</span></div>
+    </div>
+    <div class="phone">
+      <div class="hook">why aftersun's dp picked s4s over zeiss</div>
+      <div class="frame wide"><span>cooke case study still</span></div>
+      <div class="cred"><span>aftersun</span><span class="q">dp gregory oke · cooke s4</span><span class="q">@yapcine × @cookeoptics</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <span class="m q">04 · how one post works</span>
+  <div class="flow">
+    <div class="step"><span class="m q">1</span><b>we pick</b><span>a moment from your library, or one you'd like pushed</span></div>
+    <div class="step"><span class="m q">2</span><b>we cut</b><span>the edit, hook & caption, with links back to you</span></div>
+    <div class="step"><span class="m q">3</span><b>you sign off</b><span>nothing posts without your yes</span></div>
+    <div class="step"><span class="m q">4</span><b>collab post</b><span>live on @yapcine & @cookeoptics at once</span></div>
+  </div>
+</section>
+
+<section>
+  <span class="m q">05 · a six-week pilot</span>
+  <h2>one post a week, then we look at the numbers</h2>
+  <div class="weeks">
+    <div class="wk"><span class="m">w/c 30 nov</span><span class="q">post 1</span></div>
+    <div class="wk"><span class="m">w/c 7 dec</span><span class="q">post 2</span></div>
+    <div class="wk"><span class="m">w/c 14 dec</span><span class="q">post 3</span></div>
+    <div class="wk"><span class="m">w/c 4 jan</span><span class="q">post 4</span></div>
+    <div class="wk"><span class="m">w/c 11 jan</span><span class="q">post 5</span></div>
+    <div class="wk"><span class="m">w/c 18 jan</span><span class="q">post 6</span></div>
+  </div>
+  <p class="q">A break over Christmas. Drafts reach you a week ahead. At the end you get a one-page report with views, saves, shares & clicks to Cooke Optics TV for each post, and we decide together whether to keep going.</p>
+</section>
+
+<section class="cols">
+  <div style="display:grid;gap:14px">
+    <span class="m q">06 · what yapcine does</span>
+    <ul>
+      <li>All the editing, captions & sourcing</li>
+      <li>Credits the DP, film & Cooke Optics TV on every post, with a link to the full episode</li>
+      <li>Sends every draft to you first</li>
+      <li>Takes down anything you ask, the same day</li>
+      <li>No fee for the pilot</li>
+    </ul>
+  </div>
+  <div style="display:grid;gap:14px">
+    <span class="m q">07 · what we'd ask of cooke</span>
+    <ul>
+      <li>A yes to cut from the Cooke Optics TV library</li>
+      <li>Accept the collab invite on each post you approve</li>
+      <li>Case-study stills for Shot on Cooke</li>
+      <li>One contact for sign-off, aiming for a reply within 3 days</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <span class="m q">08 · to agree today</span>
+  <ol>
+    <li>Which episodes are fair game, & are any off limits?</li>
+    <li>Who signs off, & how quickly?</li>
+    <li>Do collab posts work for @cookeoptics, or would you rather share to stories?</li>
+    <li>Can Shot on Cooke use your case-study stills?</li>
+    <li>Any DPs or new lenses you'd like us to put first?</li>
+  </ol>
+</section>
+
+<section>
+  <span class="m q">episodes we'd start with</span>
+  <div>
+    <a class="ep" href="https://cookeoptics.com/interviews/case-study-sean-bobbitt-shame-2011/" target="_blank" rel="noopener"><b>Sean Bobbitt BSC · Shame</b><span class="m q">case study ↗</span></a>
+    <a class="ep" href="https://cookeoptics.com/interviews/case-study-sean-bobbitt-single-takes-and-12-years-a-slave/" target="_blank" rel="noopener"><b>Sean Bobbitt BSC · single takes & 12 Years a Slave</b><span class="m q">case study ↗</span></a>
+    <a class="ep" href="https://cookeoptics.com/interviews/cinematography-masterclass-filming-night-scenes-roundtable/" target="_blank" rel="noopener"><b>Filming night scenes</b><span class="m q">masterclass roundtable ↗</span></a>
+    <div class="ep"><b>Ben Smithard BSC · hand-drawn lighting diagrams</b><span class="m q">cooke optics tv</span></div>
+  </div>
+</section>
+
+<footer class="foot m q">
+  <span>yapcine.com</span>
+  <a href="https://www.instagram.com/yapcine/">@yapcine</a>
+</footer>
+
+</main>
+</body>
+</html>
